@@ -1,1 +1,1 @@
-# simple-mooc from django course for improve my django skills
+# simple-mooc from django course - improve django skills
