@@ -22,6 +22,7 @@ admin.autodiscover()
 
 urlpatterns = [
 	url(r'^', include('core.urls', namespace='core')),    
+	url(r'^conta/', include('accounts.urls', namespace='accounts')),
 	url(r'^cursos/', include('courses.urls', namespace='courses')),
 	url(r'^admin/', admin.site.urls),
 ]
